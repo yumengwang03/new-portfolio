@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Muli', sans-serif;
+	font-style: light;
 }
 
 .header-container {
@@ -46,7 +47,7 @@
 }
 
 .project-container {
-	width: 50%;
+	width: 49%;
 	height: 300px;
 	display: inline-block;
 	/*background-color: white;
@@ -54,17 +55,17 @@
 	border-width: 1px;*/
 }
 
-.cover-container {
+/*.cover-container {
 	width: 100%;
 	height: 100%;
-}
+}*/
 
 .cover-image {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
-	height: auto;
+	width: auto;
+	height: 200px;
 }
 
 #home-logo {
@@ -86,4 +87,36 @@
 #contact-logo {
 	width: 60%;
 	height: auto;
+}
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.footerText {
+	text-align: center;
+	color: #888;
+}
+
+.project-main-title {
+	font-size: 2em;
+	margin-top: 80px;
+	text-align: center;
+	color: #aaa;
+}
+
+.project-description {
+	text-indent: 40px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.project-description-img {
+	width: 50%;
+	height: auto;
+	margin-left: 20%;
+	margin-right: 20%;
 }
