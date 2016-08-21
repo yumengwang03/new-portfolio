@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Cursor Toolbox</title>
+    <meta name="description" content="Yumeng Wang's portfolio site">
+
+    <meta property="og:title" content="Yumeng Wang" />
+    <meta property="og:site_name" content="yumeng-wang.com" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="../../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+</head>
+
+<body>
+    <div class="portfolio-container">
+        <div class="header-container">
+            <div class="left-container">
+                <a href="../../index.html">
+                    <img src="../../home-img/logo.png" alt="logo" id="home-logo">
+                </a>
+            </div>
+            <div class="right-container">
+                <h1 class="project-main-title">Cursor Toolbox</h3>
+            </div>
+        </div>
+        <div class="content-container">
+            <img src="cursor3.jpg" class="project-description-img">
+            <img src="cover.jpg" class="project-description-img">
+            <p class="project-description">Cursor Toolbox is a system that translates the online experience to real life and uploads it back online. It consists of a toolbox of different forms of physical “cursors” with various functions (for midterm, I made the “pointer cursor” and the red “upload button”).  The user is able to record colors, GPS data, and point at object with laser, which respectively correspond to the three functions of the actual cursor on the computer: saving images, saving URLs and navigation. All data are stored temporarily on a micro SD card inside of the cursor. When the user gets home, he/she can put the cursor on the “upload button”, so that the data can be transferred to a web server through RFDuino Bluetooth transmission and serial reading on a Raspberry Pi inside of the button. A P5.js sketch is served on the Pi as the visualization of the recorded data, showing the color and the processed GPS data (the GPS data has not been input into the website in the current phase). Meanwhile, for each time of “uploading”, two colors are randomly selected from the color recording file and pushed into the database on Parse. Ideally, these color data can be utilized in the future as a palette from which the user can pick the color and draw on the screen.</p>
+            <p class="project-description">The goal of Cursor Toolbox is to address on the issue that physical interactions are diminished by online activities. The shift from offline to online has tremendous impact on our communications, relationships and social interactions, inspiring the future of communication, social structures and human-machine interface, as well as causing unprecedented problems: apathy of physical contacts, digital abuse, online privacy, etc. Therefore, this project aims to re-emphasize the significance of offline activities and explores its connections back to the digital world. It uses the features of online behaviors as the lens to observe and magnify our offline life, facilitating physical interactions between people. As the bridge between online and offline, the system in this project also develops new possibilities for interactions and behaviors in the built environments.</p>
+            <p class="project-description">The devices in this project take forms of identical computer interface icons. Through the explicit representations of the digital navigation tools, which defines and also limits the online experience, these devices investigate how digital/online tools have shaped the ways that we perceive the reality. In addition, the dual nature of the digital icons and their physical counterparts reflect on the idea that various social issues also exist online and offline that relate or contribute to each other. However, until now the functions of the devices focus merely on the actions that engage interactions between people and their environments.</p>
+            <img src="cursor7.jpg" class="project-description-img">
+            <p class="project-description">Visualization of GPS data:</p>
+            <img src="cursor10.png" class="project-description-img">
+            <p class="project-description">3D model of the device:</p>
+            <img src="cursor1.jpg" class="project-description-img">
+            <p class="project-description">Diagrams and components:</p>
+            <img src="diagram2.png" class="project-description-img">
+            <img src="diagram.png" class="project-description-img">
+            <img src="component.png" class="project-description-img">
+            <img src="upload.png" class="project-description-img">
+            <p class="project-description">Building process: The enclosure was laser cut with acrylic, assembled, and sprayed with white rubber.</p>
+            <img src="process.png" class="project-description-img">
+        </div>
+</body>
+<!-- <script src="js/main.js"></script> -->
+<footer>
+  <a href="../../index.html">
+    <p class="footerText">← Back to homepage</p>
+  </a>
+    <p class="footerText">2016 Yumeng Wang</p>
+</footer>
+
+</html>
